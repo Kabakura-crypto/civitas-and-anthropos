@@ -52,7 +52,7 @@
               The study of human origins, biological variations, and cultural evolution. Learn how rituals, symbols, and beliefs define the human story.
             </p>
           </div>
-          <button onclick="alert('Anthropology Key Focus: Cultural Relativism teaches us to evaluate cultural practices based on their own context rather than through our own cultural lens.')" class="w-full py-2 bg-slate-700 hover:bg-amber-500 hover:text-slate-950 font-medium rounded-lg transition text-xs">
+          <button onclick="showModal('Anthropology Reflection', 'Cultural Relativism teaches us to evaluate cultural practices based on their own context rather than through our own cultural lens. How do modern societal norms influence the way we view traditional practices from other cultures?')" class="w-full py-2 bg-slate-700 hover:bg-amber-500 hover:text-slate-950 font-medium rounded-lg transition text-xs">
             Read Reflection Prompt
           </button>
         </div>
@@ -68,7 +68,7 @@
               Investigating social institutions, group dynamics, stratification, and systemic interactions that shape human behavior across groups.
             </p>
           </div>
-          <button onclick="alert('Sociology Key Focus: Social Institutions (Family, Education, Economy) provide the invisible framework guiding daily interactions.')" class="w-full py-2 bg-slate-700 hover:bg-amber-500 hover:text-slate-950 font-medium rounded-lg transition text-xs">
+          <button onclick="showModal('Sociology Reflection', 'Social Institutions (Family, Education, Economy) provide the invisible framework guiding daily interactions. In what ways do digital social networks function as a new primary social institution for adolescents today?')" class="w-full py-2 bg-slate-700 hover:bg-amber-500 hover:text-slate-950 font-medium rounded-lg transition text-xs">
             Read Reflection Prompt
           </button>
         </div>
@@ -84,7 +84,7 @@
               Understanding state power, citizenship responsibilities, governance structures, rights, and political behavior within society.
             </p>
           </div>
-          <button onclick="alert('Political Science Key Focus: Legitimacy and Power — Power is the ability to influence; authority is the recognized right to exercise that power.')" class="w-full py-2 bg-slate-700 hover:bg-amber-500 hover:text-slate-950 font-medium rounded-lg transition text-xs">
+          <button onclick="showModal('Political Science Reflection', 'Power vs. Authority: Power is the ability to influence; authority is the recognized right to exercise that power. When does civic disobedience challenge legitimate authority versus corrupt power?')" class="w-full py-2 bg-slate-700 hover:bg-amber-500 hover:text-slate-950 font-medium rounded-lg transition text-xs">
             Read Reflection Prompt
           </button>
         </div>
@@ -93,3 +93,208 @@
 
     <!-- TIMELINE TAB -->
     <section id="tab-timeline" class="tab-content hidden space-y-6">
+      <div class="text-center max-w-2xl mx-auto mb-8">
+        <h2 class="text-3xl font-bold text-amber-400 font-serif-title">Historical Milestones</h2>
+        <p class="text-slate-400 text-sm mt-2">Key shifts in human social organization, governance, and culture across millennia.</p>
+      </div>
+
+      <div class="relative border-l-2 border-amber-500/40 ml-4 md:ml-32 space-y-8 py-4">
+        <div class="relative pl-6">
+          <div class="absolute -left-[9px] top-1.5 w-4 h-4 rounded-full bg-amber-400 border-4 border-slate-900"></div>
+          <span class="text-xs font-semibold uppercase text-amber-400 tracking-wider">c. 10,000 BCE</span>
+          <h3 class="text-lg font-bold text-slate-100">The Neolithic Revolution</h3>
+          <p class="text-slate-300 text-sm mt-1">Transition from nomadic hunter-gatherer bands to settled agrarian communities, leading to surplus wealth, property, and early social hierarchies.</p>
+        </div>
+
+        <div class="relative pl-6">
+          <div class="absolute -left-[9px] top-1.5 w-4 h-4 rounded-full bg-amber-400 border-4 border-slate-900"></div>
+          <span class="text-xs font-semibold uppercase text-amber-400 tracking-wider">c. 508 BCE</span>
+          <h3 class="text-lg font-bold text-slate-100">Athenian Democracy</h3>
+          <p class="text-slate-300 text-sm mt-1">Cleisthenes reforms the constitution of Athens, establishing one of the earliest recorded civic democratic systems (Civitas).</p>
+        </div>
+
+        <div class="relative pl-6">
+          <div class="absolute -left-[9px] top-1.5 w-4 h-4 rounded-full bg-amber-400 border-4 border-slate-900"></div>
+          <span class="text-xs font-semibold uppercase text-amber-400 tracking-wider">1789 CE</span>
+          <h3 class="text-lg font-bold text-slate-100">The French Revolution & Human Rights</h3>
+          <p class="text-slate-300 text-sm mt-1">Declaration of the Rights of Man and of the Citizen redefines political sovereignty from monarchical rule to popular civic citizenship.</p>
+        </div>
+
+        <div class="relative pl-6">
+          <div class="absolute -left-[9px] top-1.5 w-4 h-4 rounded-full bg-amber-400 border-4 border-slate-900"></div>
+          <span class="text-xs font-semibold uppercase text-amber-400 tracking-wider">Late 20th Century - Present</span>
+          <h3 class="text-lg font-bold text-slate-100">The Digital Age & Globalized Society</h3>
+          <p class="text-slate-300 text-sm mt-1">Hyper-connectivity transforms cultural exchange, virtual social structures, and political discourse on a global scale.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ARTICLES TAB -->
+    <section id="tab-articles" class="tab-content hidden space-y-6">
+      <div class="text-center max-w-2xl mx-auto mb-8">
+        <h2 class="text-3xl font-bold text-amber-400 font-serif-title">Social Structures & Analysis</h2>
+        <p class="text-slate-400 text-sm mt-2">Short foundational readings on how society maintains order and negotiates power.</p>
+      </div>
+
+      <div class="grid md:grid-cols-2 gap-6">
+        <article class="bg-slate-800/40 border border-slate-700 p-6 rounded-xl space-y-3">
+          <span class="text-xs font-semibold px-2.5 py-1 bg-amber-500/10 text-amber-400 rounded-full">Sociology & Power</span>
+          <h3 class="text-xl font-bold text-slate-100">Understanding Social Stratification</h3>
+          <p class="text-slate-300 text-sm leading-relaxed">
+            Social stratification refers to a society's categorization of its people into ranking groups based on factors like wealth, income, education, family background, and power. Whether structured via caste systems, class hierarchies, or meritocracies, these systems profoundly influence individual opportunities and societal mobility.
+          </p>
+        </article>
+
+        <article class="bg-slate-800/40 border border-slate-700 p-6 rounded-xl space-y-3">
+          <span class="text-xs font-semibold px-2.5 py-1 bg-amber-500/10 text-amber-400 rounded-full">Political Theory</span>
+          <h3 class="text-xl font-bold text-slate-100">The Social Contract Theory</h3>
+          <p class="text-slate-300 text-sm leading-relaxed">
+            Pioneered by thinkers like Thomas Hobbes, John Locke, and Jean-Jacques Rousseau, the Social Contract asserts that individuals consent, either explicitly or implicitly, to surrender some of their freedoms to a governing authority in exchange for protection of their remaining rights and maintenance of social order.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <!-- GAMES & TRIVIA TAB -->
+    <section id="tab-games" class="tab-content hidden space-y-8">
+      <div class="text-center max-w-2xl mx-auto">
+        <h2 class="text-3xl font-bold text-amber-400 font-serif-title">Interactive Knowledge Check</h2>
+        <p class="text-slate-400 text-sm mt-2">Test your understanding of cultural, social, and political concepts.</p>
+      </div>
+
+      <!-- Motivational Quote Section -->
+      <div class="max-w-xl mx-auto bg-amber-500/10 border border-amber-500/30 p-6 rounded-xl text-center space-y-3">
+        <div class="text-amber-400 text-xl"><i class="fa-solid fa-quote-left"></i></div>
+        <p id="quote-text" class="text-slate-200 font-serif-title italic text-base">"Man is by nature a political animal."</p>
+        <p id="quote-author" class="text-amber-400 text-xs font-semibold uppercase tracking-wider">— Aristotle</p>
+        <button onclick="nextQuote()" class="mt-2 text-xs bg-amber-500/20 hover:bg-amber-500/40 text-amber-300 px-3 py-1 rounded-full border border-amber-500/30 transition">
+          <i class="fa-solid fa-rotate-right mr-1"></i> New Motivational Quote
+        </button>
+      </div>
+
+      <!-- Quiz Box -->
+      <div class="max-w-xl mx-auto bg-slate-800/60 border border-slate-700 p-6 rounded-xl space-y-4">
+        <div class="flex justify-between items-center border-b border-slate-700 pb-3">
+          <span class="text-xs font-bold text-amber-400 uppercase tracking-wide">Civics & Anthropology Trivia</span>
+          <span id="score-display" class="text-xs text-slate-300">Score: 0</span>
+        </div>
+
+        <div id="quiz-container">
+          <p id="quiz-question" class="text-lg font-medium text-slate-100 mb-4">What does the Latin word "Civitas" primarily refer to?</p>
+          <div id="quiz-options" class="space-y-2">
+            <button onclick="checkAnswer(0)" class="w-full text-left p-3 rounded-lg bg-slate-700 hover:bg-slate-600 transition text-sm">A) The biological study of early humans</button>
+            <button onclick="checkAnswer(1)" class="w-full text-left p-3 rounded-lg bg-slate-700 hover:bg-slate-600 transition text-sm">B) The social body of citizens and their political community</button>
+            <button onclick="checkAnswer(2)" class="w-full text-left p-3 rounded-lg bg-slate-700 hover:bg-slate-600 transition text-sm">C) An economic trading network</button>
+          </div>
+          <div id="quiz-feedback" class="mt-4 text-sm font-semibold hidden"></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Custom Modal Popup Box -->
+  <div id="custom-modal" class="fixed inset-0 bg-slate-950/80 backdrop-blur-sm flex items-center justify-center p-4 hidden z-50">
+    <div class="bg-slate-800 border border-amber-500/40 rounded-xl max-w-md w-full p-6 space-y-4 shadow-2xl">
+      <h3 id="modal-title" class="text-xl font-bold text-amber-400 font-serif-title"></h3>
+      <p id="modal-text" class="text-slate-300 text-sm leading-relaxed"></p>
+      <button onclick="closeModal()" class="w-full py-2 bg-amber-500 hover:bg-amber-400 text-slate-950 font-semibold rounded-lg transition text-sm">Got it</button>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="border-t border-slate-800 bg-slate-950 py-6 text-center text-xs text-slate-500">
+    <p>&copy; 2026 Civitas & Anthropos by Grace Albancia. Created for Educational Purposes.</p>
+  </footer>
+
+  <!-- Interactive JavaScript -->
+  <script>
+    function switchTab(tabId) {
+      document.querySelectorAll('.tab-content').forEach(el => el.classList.add('hidden'));
+      document.querySelectorAll('.nav-btn').forEach(btn => {
+        btn.classList.remove('bg-amber-500', 'text-slate-950');
+        btn.classList.add('hover:bg-slate-800', 'text-slate-300');
+      });
+
+      document.getElementById('tab-' + tabId).classList.remove('hidden');
+      const activeBtn = document.getElementById('nav-' + tabId);
+      activeBtn.classList.remove('hover:bg-slate-800', 'text-slate-300');
+      activeBtn.classList.add('bg-amber-500', 'text-slate-950');
+    }
+
+    function showModal(title, text) {
+      document.getElementById('modal-title').innerText = title;
+      document.getElementById('modal-text').innerText = text;
+      document.getElementById('custom-modal').classList.remove('hidden');
+    }
+
+    function closeModal() {
+      document.getElementById('custom-modal').classList.add('hidden');
+    }
+
+    // Quotes Data & Logic
+    const quotes = [
+      { text: "Man is by nature a political animal.", author: "Aristotle" },
+      { text: "Never doubt that a small group of thoughtful, committed citizens can change the world; indeed, it's the only thing that ever has.", author: "Margaret Mead" },
+      { text: "Culture is the widening of the mind and of the spirit.", author: "Jawaharlal Nehru" },
+      { text: "The secret of change is to focus all of your energy not on fighting the old, but on building the new.", author: "Socrates" },
+      { text: "Education is the most powerful weapon which you can use to change the world.", author: "Nelson Mandela" }
+    ];
+    let currentQuoteIdx = 0;
+
+    function nextQuote() {
+      currentQuoteIdx = (currentQuoteIdx + 1) % quotes.length;
+      document.getElementById('quote-text').innerText = `"${quotes[currentQuoteIdx].text}"`;
+      document.getElementById('quote-author').innerText = `— ${quotes[currentQuoteIdx].author}`;
+    }
+
+    // Quiz Data & Logic
+    const quizData = [
+      {
+        q: "What does the Latin word 'Civitas' primarily refer to?",
+        options: ["A) The biological study of early humans", "B) The social body of citizens and political community", "C) An economic trading network"],
+        correct: 1,
+        explanation: "'Civitas' is the Latin concept of citizenship and the shared political community of citizens."
+      },
+      {
+        q: "Which term describes judging another culture based solely on the values and standards of one's own culture?",
+        options: ["A) Cultural Relativism", "B) Ethnocentrism", "C) Assimilation"],
+        correct: 1,
+        explanation: "Ethnocentrism is the practice of evaluating other cultures according to preconceptions originating in the standards of one's own culture."
+      }
+    ];
+
+    let currentQ = 0;
+    let score = 0;
+
+    function checkAnswer(index) {
+      const feedback = document.getElementById('quiz-feedback');
+      feedback.classList.remove('hidden');
+      if (index === quizData[currentQ].correct) {
+        score++;
+        document.getElementById('score-display').innerText = 'Score: ' + score;
+        feedback.className = "mt-4 text-sm font-semibold text-emerald-400";
+        feedback.innerText = "Correct! " + quizData[currentQ].explanation;
+      } else {
+        feedback.className = "mt-4 text-sm font-semibold text-rose-400";
+        feedback.innerText = "Incorrect. " + quizData[currentQ].explanation;
+      }
+
+      setTimeout(() => {
+        currentQ = (currentQ + 1) % quizData.length;
+        loadQuestion();
+      }, 3000);
+    }
+
+    function loadQuestion() {
+      const q = quizData[currentQ];
+      document.getElementById('quiz-question').innerText = q.q;
+      const opts = document.getElementById('quiz-options');
+      opts.innerHTML = '';
+      q.options.forEach((opt, idx) => {
+        opts.innerHTML += `<button onclick="checkAnswer(${idx})" class="w-full text-left p-3 rounded-lg bg-slate-700 hover:bg-slate-600 transition text-sm">${opt}</button>`;
+      });
+      document.getElementById('quiz-feedback').classList.add('hidden');
+    }
+  </script>
+</body>
+</html>
